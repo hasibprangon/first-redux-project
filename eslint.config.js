@@ -19,5 +19,7 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    'react/prop-types': 'off',
+      'no-unused-vars': 'off'
   },
 ])
